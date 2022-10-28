@@ -1,4 +1,4 @@
-# phuef.github.io
+# main
 
 ## Project setup
 ```

@@ -1,18 +1,18 @@
 <template>
-  <div class="about">
-    <about-page />
+  <div class="me">
+    <me-page />
   </div>
 </template>
 
 <script lang="ts">
 import Vue from "vue";
-import AboutPage from "../components/AboutPage.vue";
+import MePage from "../components/MePage.vue";
 
 export default Vue.extend({
-  name: "about-view",
+  name: "me-view",
 
   components: {
-    AboutPage,
+    MePage,
   },
 });
 </script>

@@ -2,9 +2,10 @@
   <div>
       <v-container>
           <v-row no-gutters>
-              <v-col cols="4">
+              <v-col cols="6">
                    <v-card>
-                        <v-card-title>Who am I?</v-card-title>
+                        <v-card-title>Welcome to my website :)</v-card-title>
+                        <v-card-subtitle class="red--text"> <v-icon color="red">mdi-alert</v-icon> This website is still under construction. It wasn't developed testdriven and doesn't use clean code, so be on the lookout for bugs or unwanted features. </v-card-subtitle>
                         <v-col
                                 cols="12"
                             >
@@ -17,21 +18,10 @@
                                     Phil Hüffer
                                     ({{getAge("2000-04-13")}})
                                 </em>
-                        </v-col> <!--avatar-->
-                        <v-card-subtitle>M.Sc. Student </v-card-subtitle>
+                        </v-col>
+                        <v-card-subtitle>M.Sc. Student of Geoinformatics and Spatial Data Science </v-card-subtitle>
                    </v-card>
               </v-col>
-              <v-col cols=4 offset="4"> 
-                   <v-card>
-                   <v-card-title>Discover my creative space</v-card-title>
-                   <v-card-subtitle> <router-link
-                                        to="/randompicture"
-                                    >
-                                        get random pictures
-                                    </router-link> </v-card-subtitle>
-                   <v-card-subtitle> get random black and white pictures </v-card-subtitle>
-                   </v-card>
-                </v-col>
             </v-row>
       </v-container>
   </div>

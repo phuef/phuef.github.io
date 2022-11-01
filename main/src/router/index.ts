@@ -7,6 +7,7 @@ import RandomPictureView from "../views/RandomPictureView.vue";
 import DiscoverView from "../views/DiscoverView.vue";
 import CVView from "../views/CVView.vue";
 import WorkExperienceView from "../views/WorkExperienceView.vue";
+import SkillsView from "../views/SkillsView.vue";
 
 Vue.use(VueRouter);
 
@@ -19,6 +20,8 @@ const routes: Array<RouteConfig> = [
   {path: "/discover",name: "discover-view",component: DiscoverView,},
   {path: "/cv",name: "c-v-view",component: CVView,},
   {path: "/workexperience",name: "work-experience-view",component: WorkExperienceView,},
+  {path: "/skills",name: "skills-view",component: SkillsView,},
+
 
 ];
 

@@ -36,7 +36,7 @@
             <v-col>
               <strong>Factory Worker</strong> <v-icon>mdi-factory</v-icon>
               <div class="text-caption mb-2">
-                <v-icon small>mdi-information-outline</v-icon> Doing supporting work in the factory.
+                <v-icon small>mdi-information-outline</v-icon> Doing supporting work in a factory.
                 <br><v-icon small>mdi-map-marker-outline</v-icon> <a href='https://www.nielsen-design.de/'> Nielsen Design GmbH</a>, Rheda-Wiedenbrück
               </div>
             </v-col>

@@ -8,6 +8,7 @@ import DiscoverView from "../views/DiscoverView.vue";
 import CVView from "../views/CVView.vue";
 import WorkExperienceView from "../views/WorkExperienceView.vue";
 import SkillsView from "../views/SkillsView.vue";
+import ProjectsView from "../views/ProjectsView.vue";
 
 Vue.use(VueRouter);
 
@@ -21,12 +22,15 @@ const routes: Array<RouteConfig> = [
   {path: "/cv",name: "c-v-view",component: CVView,},
   {path: "/workexperience",name: "work-experience-view",component: WorkExperienceView,},
   {path: "/skills",name: "skills-view",component: SkillsView,},
+  {path: "/projects",name: "projects-view",component: ProjectsView,},
+
 
 
 ];
 
 const router = new VueRouter({
   mode: "history",
+  base: process.env.BASE_URL,
   routes,
 });
 

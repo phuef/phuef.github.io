@@ -58,7 +58,8 @@ export default Vue.extend({
         icon: "mdi-briefcase-outline",
       },
       { route: "/skills", name: "Skills", icon: "mdi-tools" },
-      { route: "/projects", name: "Projects", icon: "mdi-penguin" },
+      //{ route: "/projects", name: "Projects", icon: "mdi-penguin" },
+      //{ route: "/3d", name: "", icon: "mdi-video-3d" },
     ],
   }),
 });

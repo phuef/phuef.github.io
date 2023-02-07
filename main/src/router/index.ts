@@ -9,23 +9,30 @@ import CVView from "../views/CVView.vue";
 import WorkExperienceView from "../views/WorkExperienceView.vue";
 import SkillsView from "../views/SkillsView.vue";
 import ProjectsView from "../views/ProjectsView.vue";
+import ThreeDView from "../views/ThreeDView.vue";
 
 Vue.use(VueRouter);
 
 const routes: Array<RouteConfig> = [
-  {path: "/",name: "home-view",component: HomeView,},
-  {path: "/home", redirect:"/"},
-  {path: "/about",name: "about-view",component: AboutView,},
-  {path: "/me",name: "me-view",component: MeView,},
-  {path: "/randompicture",name: "random-picture-view",component: RandomPictureView,},
-  {path: "/discover",name: "discover-view",component: DiscoverView,},
-  {path: "/cv",name: "c-v-view",component: CVView,},
-  {path: "/workexperience",name: "work-experience-view",component: WorkExperienceView,},
-  {path: "/skills",name: "skills-view",component: SkillsView,},
-  {path: "/projects",name: "projects-view",component: ProjectsView,},
-
-
-
+  { path: "/", name: "home-view", component: HomeView },
+  { path: "/home", redirect: "/" },
+  { path: "/about", name: "about-view", component: AboutView },
+  { path: "/me", name: "me-view", component: MeView },
+  {
+    path: "/randompicture",
+    name: "random-picture-view",
+    component: RandomPictureView,
+  },
+  { path: "/discover", name: "discover-view", component: DiscoverView },
+  { path: "/cv", name: "c-v-view", component: CVView },
+  {
+    path: "/workexperience",
+    name: "work-experience-view",
+    component: WorkExperienceView,
+  },
+  { path: "/skills", name: "skills-view", component: SkillsView },
+  { path: "/projects", name: "projects-view", component: ProjectsView },
+  { path: "/3d", name: "three-d-view", component: ThreeDView },
 ];
 
 const router = new VueRouter({

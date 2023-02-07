@@ -1,8 +1,15 @@
 <template>
-  <div>
+  <div src="../assets/Resume picture.png">
     <v-container>
       <v-row>
-        <v-col cols="4" class="d-flex .align-stretch pr-0">
+        <v-col
+          xl="4"
+          lg="4"
+          md="4"
+          sm="6"
+          xs="12"
+          class="d-flex flex-shrink-1 flex-grow-1 .align-stretch pr-0"
+        >
           <v-card heigth="100%" width="100%">
             <img
               center
@@ -39,7 +46,7 @@
             </v-list>
           </v-card>
         </v-col>
-        <v-col cols="8">
+        <v-col xl="8" lg="8" md="8" sm="6" xs="12">
           <v-card class="mb-2">
             <v-card-title>About me</v-card-title>
             <v-card-text class="text-h6"
@@ -57,12 +64,6 @@
             <v-card-text class="text-h6">
               "Be the change you want to see"
             </v-card-text>
-            <v-card-subtitle class="yellow--text text--darken-4">
-              <v-icon color="yellow darken-4">mdi-alert</v-icon> This website is
-              still under construction. It wasn't developed testdriven and
-              doesn't use clean code, so be on the lookout for bugs/unwanted
-              features.
-            </v-card-subtitle>
           </v-card>
         </v-col>
       </v-row>

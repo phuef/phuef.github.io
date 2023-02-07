@@ -3,6 +3,7 @@
     <v-container>
       <v-row>
         <v-col
+          cols="12"
           xl="4"
           lg="4"
           md="4"
@@ -46,7 +47,7 @@
             </v-list>
           </v-card>
         </v-col>
-        <v-col xl="8" lg="8" md="8" sm="6" xs="12">
+        <v-col cols="12" xl="8" lg="8" md="8" sm="6" xs="12">
           <v-card class="mb-2">
             <v-card-title>About me</v-card-title>
             <v-card-text class="text-h6"

@@ -55,7 +55,7 @@
               can't this be different. If something didn't work the way I wanted
               it to, I tried to find a way to make it work. Even today I'm still
               eager to figure out everything and solve problems out there. Let
-              me solve problems for you.
+              us solve problems together.
             </v-card-text>
           </v-card>
           <v-spacer></v-spacer>

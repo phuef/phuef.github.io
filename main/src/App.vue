@@ -51,6 +51,7 @@ export default Vue.extend({
 
   data: () => ({
     navItems: [
+      { route: "/publications", name: "Publications", icon: "mdi-book" },
       { route: "/cv", name: "Academic Career", icon: "mdi-school-outline" },
       {
         route: "/workexperience",

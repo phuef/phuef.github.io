@@ -17,8 +17,9 @@
             <strong>Birth</strong> <v-icon>mdi-cake</v-icon>
             <div class="text-caption mb-2">
               <v-icon small>mdi-message-outline</v-icon>
-              <i>"wow he has big feet"</i> - midwife quote, right after my birth
-              <br /><v-icon small>mdi-map-marker-outline</v-icon> Gütersloh
+              <i> "wow he has big feet"</i> - midwife quote, right after my
+              birth <br /><v-icon small>mdi-map-marker-outline</v-icon>
+              Gütersloh
             </div>
           </v-col>
         </v-row>
@@ -63,7 +64,7 @@
             <strong>High School</strong> <v-icon>mdi-school</v-icon>
             <div class="text-caption mb-2">
               <v-icon small>mdi-notebook-multiple</v-icon>
-              <i>Math, Geography, Informatics and German</i> - my graduation
+              <i> Math, Geography, Informatics and German</i> - my graduation
               subjects<br />
               <v-icon small>mdi-map-marker-outline</v-icon>
               <a href="https://www.ratsgymnasium.com/">Ratsgymnasium</a>,
@@ -87,11 +88,11 @@
           <v-col>
             <strong>B.Sc. in Geoinformatics</strong> <v-icon>mdi-school</v-icon>
             <div class="text-caption mb-2">
-              <v-icon small>mdi-notebook-multiple</v-icon> A search engine for
-              web-based interactive visualizations - the topic of my bachelor
-              thesis <br />
+              <v-icon small>mdi-notebook-multiple</v-icon>
+              <i> A search engine for web-based interactive visualizations</i> -
+              the topic of my bachelor thesis <br />
               <v-icon small>mdi-information</v-icon>
-              <a href="https://bachelor-geoinformatik.de/">more information</a
+              <a href="https://bachelor-geoinformatik.de/"> more information</a
               ><br />
               <v-icon small>mdi-map-marker-outline</v-icon> University Münster
             </div>
@@ -115,9 +116,31 @@
             <v-icon>mdi-school-outline</v-icon>
             <div class="text-caption mb-2">
               <v-icon small>mdi-information</v-icon>
-              <a href="https://master-geoinformatics.com/">more information</a
+              <a href="https://master-geoinformatics.com/"> more information</a
               ><br />
               <v-icon small>mdi-map-marker-outline</v-icon> University Münster
+            </div>
+          </v-col>
+        </v-row>
+      </v-timeline-item>
+      <v-timeline-item>
+        <template v-slot:icon>
+          <v-avatar>
+            <img
+              src="https://avataaars.io/?avatarStyle=Circle&topType=ShortHairShortCurly&accessoriesType=Blank&hairColor=Blonde&facialHairType=BeardLight&facialHairColor=Blonde&clotheType=Hoodie&clotheColor=Gray02&eyeType=Default&eyebrowType=DefaultNatural&mouthType=Default&skinColor=Pale"
+            />
+          </v-avatar>
+        </template>
+        <v-row class="pt-1">
+          <v-col cols="3">
+            <strong>2023</strong>
+          </v-col>
+          <v-col>
+            <strong>First paper publication</strong>
+            <v-icon>mdi-book</v-icon>
+            <div class="text-caption mb-2">
+              <v-icon small>mdi-information</v-icon>
+              <a href="/publications"> more information</a>
             </div>
           </v-col>
         </v-row>

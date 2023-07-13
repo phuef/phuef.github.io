@@ -10,6 +10,7 @@ import WorkExperienceView from "../views/WorkExperienceView.vue";
 import SkillsView from "../views/SkillsView.vue";
 import ProjectsView from "../views/ProjectsView.vue";
 import ThreeDView from "../views/ThreeDView.vue";
+import PublicationsView from "../views/PublicationsView.vue";
 
 Vue.use(VueRouter);
 
@@ -29,6 +30,11 @@ const routes: Array<RouteConfig> = [
     path: "/workexperience",
     name: "work-experience-view",
     component: WorkExperienceView,
+  },
+  {
+    path: "/publications",
+    name: "publlications-view",
+    component: PublicationsView,
   },
   { path: "/skills", name: "skills-view", component: SkillsView },
   { path: "/projects", name: "projects-view", component: ProjectsView },

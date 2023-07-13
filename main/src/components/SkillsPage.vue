@@ -69,10 +69,26 @@
         </v-card>
       </v-col>
       <v-col cols="12" xl="2" lg="3" md="3" sm="6" xs="12">
+        <v-card color="indigo lighten-5">
+          <v-card-title>Uncategorised:</v-card-title>
+          <v-chip
+            v-for="(other, index) in uncategoriseds"
+            :key="index"
+            class="ma-2"
+            :color="other.color"
+            label
+            text-color="white"
+          >
+            <v-icon left>{{ other.icon }}</v-icon>
+            {{ other.name }}
+          </v-chip>
+        </v-card>
+      </v-col>
+      <v-col cols="12" xl="2" lg="3" md="3" sm="6" xs="12">
         <v-card color="teal lighten-5">
           <v-card-title>Other:</v-card-title>
           <v-chip
-            v-for="(other, index) in other"
+            v-for="(other, index) in others"
             :key="index"
             class="ma-2"
             :color="other.color"
@@ -157,7 +173,7 @@ export default Vue.extend({
         { name: "(geo)statistics", color: "", icon: "mdi-chart-bar-stacked" },
         { name: "problem solving", color: "", icon: "mdi-lightbulb-outline" },
       ],
-      other: [
+      others: [
         //organizational
         {
           name: "drivers license (B1)",
@@ -169,6 +185,25 @@ export default Vue.extend({
           name: "video editing",
           color: "teal darken-3",
           icon: "mdi-movie-open-edit",
+        },
+        { name: "", color: "", icon: "mdi-" },
+      ],
+      uncategoriseds: [
+        //organizational
+        {
+          name: "Machine learning",
+          color: "indigo darken-3",
+          icon: "mdi-state-machine",
+        },
+        {
+          name: "Spatial optimisation",
+          color: "indigo darken-3",
+          icon: "mdi-vector-selection",
+        },
+        {
+          name: "Remote sensing",
+          color: "indigo darken-3",
+          icon: "mdi-satellite",
         },
         { name: "", color: "", icon: "mdi-" },
       ],

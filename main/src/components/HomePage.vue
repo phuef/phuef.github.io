@@ -21,7 +21,7 @@
             />
             <v-list>
               <v-list-item>
-                Phil Hüffer ({{ getAge("2000-04-13") }})
+                <div>Phil Hüffer ({{ getAge("2000-04-13") }})</div>
               </v-list-item>
               <v-list-item>
                 M.Sc. Student of Geoinformatics and Spatial Data
@@ -30,7 +30,6 @@
               <v-card-text>
                 <v-icon small>mdi-map-marker</v-icon> Münster, Germany
                 <br />
-                Get in touch with me:
                 <v-btn icon href="mailto:phil.hueffer@gmail.com"
                   ><v-icon>mdi-email</v-icon></v-btn
                 >
@@ -56,16 +55,34 @@
               can't this be different. If something didn't work the way I wanted
               it to, I tried to find a way to make it work. Even today I'm still
               eager to figure out everything and solve problems out there. Let
-              us solve problems together.
+              us solve problems together :)
             </v-card-text>
           </v-card>
+          <!--<v-card class="mb-2">
+            <v-card-title>My beliefs</v-card-title>
+            <v-card-text class="text-h6"
+              >
+              "Treat every living being as you would like to be treated yourself"
+
+            </v-card-text>
+          </v-card>-->
           <v-spacer></v-spacer>
           <v-card>
             <v-card-title>My motto</v-card-title>
             <v-card-text class="text-h6">
-              "Be the change you want to see"
+              "Be the change you want to see" <!--<br>
+              "Treat every living being as you would like to be treated yourself" <br>
+              "Life isn’t about waiting for the storm to pass. It’s about dancing in the rain."-->
             </v-card-text>
           </v-card>
+          <!--<v-card class="mb-2">
+            <v-card-title>My values</v-card-title>
+            <v-card-text class="text-h6"
+              >
+              Sustainability, 
+
+            </v-card-text>
+          </v-card>-->
         </v-col>
       </v-row>
     </v-container>
